@@ -1,0 +1,133 @@
+body {
+
+color: rgb(49,58,69);
+font-family: arial;
+
+}
+
+div {
+
+min-height: 100vh;
+width: 100vw;
+
+}
+h1, h2 {
+
+text-align: center;
+
+}
+h1 {
+
+font-size: 5em;
+
+}
+h1 {
+
+font-size: 5em
+
+}
+h2 {
+
+font-size: 2.5em;
+
+}
+img {
+
+display: flex;
+padding: 20px;
+margin: 0 auto;
+border-radius: 130px;
+
+}
+p {
+
+width: 40%;
+margin: 10vh 10vw;
+font-size: 2em;
+
+}
+a {
+
+color: rgb(0,0,0);
+
+}
+ol {
+
+list-style: none;
+padding: 0;
+margin-bottom: 10%;
+font-size: 3em;
+display: flex;
+justify-content: space-evenly;
+}
+
+<ul>
+<li>HTML is cool</li>
+<li>CSS is cooler</li>
+<li>JS is the best</li>
+</ul>
+
+<div class="info-section">
+<img src="smileyface.jpg" alt="A smiley face">
+<a href="http://google.com">
+
+
+<ul>
+<li class="item">A computer</li>
+<li class="item">A text editor</li>
+<li class="item">A web browser</li>
+</ul>
+
+<ul>
+<li>HTML is cool</li>
+<li id="lower">CSS is cooler</li>
+<li id="lowest">JS is the best</li>
+</ul>
+
+li#lower {
+
+margin-top: 7%;
+
+}
+li#lowest {
+
+margin-bottom: 14%;
+
+}
+div.contrast {
+background-color: rgb(0,0,0);
+color: rgb(255,255,255);
+}
+<ul>
+<li class="item">Gateau</li>
+<li class="item">Cake</li>
+<li class="item">Pie</li>
+</ul>
+
+
+div.contrast {
+background-color: rgb(0,0,0);
+color: rgb(255,255,255);
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+
+ul {
+list
+-style: none;
+display: flex
+}
+li {
+margin: 0 20px
+}
+
+li {
+margin: 0 20px;
+transition: 0.6s ease;
+}
+li:hover {
+font-size: 1.2em;
+transition: 0.6s ease;
+}
